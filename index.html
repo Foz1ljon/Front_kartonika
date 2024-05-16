@@ -52,17 +52,29 @@
     <!-- Navbar >>>>>> -->
 
 
-<section>
-  <div class="embla">
-    <div class="embla__container">
-      <div class="embla__slide"><img src="./images/slide.png" alt="foto"></div>
-      <div class="embla__slide"><img src="./images/slide.png" alt="foto"></div>
-      <div class="embla__slide"><img src="./images/slide.png" alt="foto"></div>
-      <div class="shadow"></div>
+    <!-- Slider>>>>>>>>>>>> -->
+    <div class="embla">
+      <div class="embla__container">
+        <img class="embla__slide" src="./images/slide.png" alt="">
+        <img class="embla__slide" src="./images/slide.png" alt="">
+        <img class="embla__slide" src="./images/slide.png" alt="">
+      </div>
+      <div class="shadow flex">
+        <div class="order-wrap flex">
+          <h2>СОБСТВЕННОЕ ПРОИЗВОДСТВО ГОФРОКАРТОНА,<br> ТАРЫ И УПАКОВКИ</h2>
+        <ul>
+          <li>Работаем с 2008 года</li>
+          <li>Производим 80 000 м² картона в сутки</li>
+          <li>Цены на 15% ниже рыночных</li>
 
+        </ul>
+        <button class="ord">Рассчитать заказ</button>
+        </div>
+      </div>
     </div>
     
-</section>
+
+    <!-- Slider>>>>>>>>>>>> -->
 
 
     <!-- Heroo >>>>> -->
@@ -316,7 +328,6 @@
                 <li class="left"><p>потребительская гофротара</p></li>
               </ul>
             </p>
-
           </div>
 
           <div class="btns flex">
@@ -327,7 +338,7 @@
       </div>
 
       <!-- 4>>>> -->
-      <div style="background: #F2F2F2;" class="wrapper flex">
+      <div style="background: #F2F2F2; flex-direction: row-reverse;" class="wrapper flex">
         <div class="img">
           <img src="./images/Rec3.png" alt="product-img" />
           <div class="border">
@@ -373,10 +384,17 @@
           </ul>
         </div>
         <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1499.1123590045934!2d69.21109190313584!3d41.28221349760628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a39afee8311%3A0xd4d7c921c43ef229!2sMirzo%20Ulug&#39;bek!5e0!3m2!1suz!2s!4v1715774665131!5m2!1suz!2s" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <img id="msg" src="./images/Union.png" alt="msg">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1499.1123590045934!2d69.21109190313584!3d41.28221349760628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a39afee8311%3A0xd4d7c921c43ef229!2sMirzo%20Ulug&#39;bek!5e0!3m2!1suz!2s!4v1715774665131!5m2!1suz!2s" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <img id="msg-bg" src="./images/Union.png" alt="msg">
           <img id="gps"  src="./images/gps.png" alt="gps">
-
+<p id="msg">kartonika.ru <br>
+ 
+    Тел:  +7(495) 545-47-88 <br> E-mail: zakaz@kartonika.ru
+ 
+    <br><br>
+ Московская обл. Раменский 
+  район, Бронницы, с. Михеево
+  </p>
         </div>
        </div>
       </div>
@@ -424,14 +442,31 @@
 <!-- Partners>>>>> -->
 <section class="partners">
 <h1>НАШИ КЛИЕНТЫ</h1>
+
+<div class="slider">
+  <div class="slide-track">
+      <div class="slide"><img src="./icons/1.png" alt="Photo 1"></div>
+      <div class="slide"><img src="./icons/2.png" alt="Photo 2"></div>
+      <div class="slide"><img src="./icons/3.png" alt="Photo 3"></div>
+      <div class="slide"><img src="./icons/4.png" alt="Photo 4"></div>
+      <div class="slide"><img src="./icons/5.png" alt="Photo 5"></div>
+      <div class="slide"><img src="./icons/6.png" alt="Photo 6"></div>
+      <div class="slide"><img src="./icons/1.png" alt="Photo 1"></div>
+      <div class="slide"><img src="./icons/2.png" alt="Photo 2"></div>
+      <div class="slide"><img src="./icons/3.png" alt="Photo 3"></div>
+      <div class="slide"><img src="./icons/4.png" alt="Photo 4"></div>
+      <div class="slide"><img src="./icons/5.png" alt="Photo 5"></div>
+      <div class="slide"><img src="./icons/6.png" alt="Photo 6"></div>
+  </div>
+</div>
  </section>
 <!-- Partners>>>>> -->
 
-<footer class="flex">
+<footer class=" flex">
 
 
 <div class="data flex">
-  <div>
+  <div class="menu flex">
     <h4>Продукция</h4>
     <p>Гофрокартон листовой</p>
     <p>Гофрокартон в рулонах
@@ -440,7 +475,7 @@
     <p>Упаковочные изделия</p>
   </div>
 
-  <div>
+  <div class="menu flex">
     <h4>Наше производство</h4>
     <h4>Услуги</h4>
     <h4>доставка</h4>
@@ -451,6 +486,7 @@
 
  
 
+<div class="about-footer flex">
   <div class="datas flex">
     <div class="contact-1">
       <h3>+7 (495) 545-47-88</h3>
@@ -465,27 +501,33 @@
         <img src="./icons/mail.png" alt="main-img" />
         <p>zakaz@kartonika.ru</p>
       </div>
+      
     </div>
+    
   </div>
-
-
-
-  
   
 
+  <div class="location-1 flex">
+    <img src="./icons/location.png" alt="location-img" />
+    <p>Московская область, Раменский р-н, Бронницы, с. Михеево</p>
+  </div>
+</div>
+ 
 </footer>
 <!-- Form >>>>>>>> -->
 
     
   </body>
   <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
-<script src="https://unpkg.com/embla-carousel-autoplay/embla-carousel-autoplay.umd.js"></script>
-
-<script type="text/javascript">
+  <script type="text/javascript">
     const emblaNode = document.querySelector('.embla')
     const options = { loop: false }
-    const plugins = [EmblaCarouselAutoplay()]
-    const emblaApi = EmblaCarousel(emblaNode, options, plugins)
+    const emblaApi = EmblaCarousel(emblaNode, options)
+  
+    console.log(emblaApi.slideNodes()) // Access API
   </script>
+  
+
+
 
 </html>
