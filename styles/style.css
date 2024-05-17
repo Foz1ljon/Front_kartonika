@@ -181,9 +181,9 @@ nav ul {
   align-items: center;
   padding: 5px 0;
   flex-wrap: wrap;
-  width: 280px;
+  width: 270px;
   border: 1px solid;
-  margin: 20px;
+  margin: 18px;
   margin-top: 0;
 }
 
@@ -203,14 +203,14 @@ nav ul {
 }
 
 .services {
-  width: 800px;
+  width: 780px;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .service-card {
   flex-direction: column;
-  width: 300px;
+  width: 290px;
   gap: 10px;
   font-family: "Open Sans";
   border: 1px solid #d1d1d1;
@@ -362,7 +362,7 @@ th {
 .wrap {
   gap: 60px;
   margin-right: 10%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .bg-about {
@@ -436,6 +436,7 @@ iframe {
 .wrap-content {
   margin: 40px;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .inputs {
   flex-direction: column;
