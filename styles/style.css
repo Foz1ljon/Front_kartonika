@@ -264,6 +264,7 @@ section h1 {
   padding: 60px 0;
   gap: 70px;
   margin: 40px 0;
+
   flex-wrap: wrap;
 }
 
@@ -348,6 +349,8 @@ th {
   background: #cb883a;
   color: #fff;
 }
+
+
 /* Products >>>>>>>>>>  */
 
 /* Location >>>>>>>>>>  */
@@ -470,6 +473,14 @@ iframe {
   right: 2px;
   cursor: pointer;
 }
+
+.sends button:hover {
+  border: 1px solid #cb883a;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+}
+
 .sends input {
   position: absolute;
   top: 10px;
