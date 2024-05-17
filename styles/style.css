@@ -182,7 +182,7 @@ nav ul {
   padding: 5px 0;
   flex-wrap: wrap;
   width: 270px;
-  border: 1px solid;
+
   margin: 18px;
   margin-top: 0;
 }
@@ -349,7 +349,6 @@ th {
   background: #cb883a;
   color: #fff;
 }
-
 
 /* Products >>>>>>>>>>  */
 
